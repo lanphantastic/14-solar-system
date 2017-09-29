@@ -3,8 +3,7 @@ require_relative 'body'
 class Planet < Body
 
   def initialize(name,mass,day,year)
-    super(name)
-    super(mass)
+    super(name,mass)
 
     @day = day  # number of hours it takes for the planet to rotate all the way around once
 

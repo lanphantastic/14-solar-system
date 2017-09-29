@@ -3,8 +3,7 @@ require_relative 'body'
 class Moon < Body
 
   def initialize(name, mass,month,planet)
-    super(name)
-    super(mass)
+    super(name,mass)
     @month = month
     @planet = planet
   end
